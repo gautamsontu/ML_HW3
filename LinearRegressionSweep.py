@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
-# Attempting to load the dataset again to verify it's loaded correctly
+# Loading the dataset again to verify it's loaded correctly
 try:
     # Load the dataset
     X = np.load(r'C:\Users\sontu\Desktop\NEU\Masters IoT\Sem 2\ML\HW3\X_N_1000_d_5_sig_0_01.npy')
